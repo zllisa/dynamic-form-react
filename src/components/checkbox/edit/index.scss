@@ -1,0 +1,39 @@
+.edit_checkbox {
+    padding: 0 10px;
+
+    .title {
+        font-size: 16px;
+        font-weight: bold;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #eee;
+    }
+    .body{
+        padding: 10px 0;
+        .type,.required{
+            display: flex;
+            align-items: center;
+            padding: 10px 0;
+            span:first-child{
+                width: 40px;
+            }
+        }
+        .options{
+            padding: 10px 0;
+            .options_item{
+                display: flex;
+                align-items: center;
+                padding: 5px 0;
+                .options_item_input{
+                    margin-right: 10px;
+                }
+            }
+        }
+        .other_cfg{
+            padding: 10px 0;
+            .cfg_btn{
+                font-size: 12px;
+                padding: 0 10px 0 0;
+            }
+        }
+    }
+}
