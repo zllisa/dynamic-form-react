@@ -1,46 +1,41 @@
-# Getting Started with Create React App
+<img src="https://gw.alipayobjects.com/zos/antfincdn/R8sN%24GNdh6/language.svg" width="18"> [English](./README.en-US.md) | 简体中文
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">DynamicForm</h1>
 
-## Available Scripts
+<div align="center">
 
-In the project directory, you can run:
+基于React➕Antd➕React-Sortable实现的模拟钉钉的拖拽式DIY简单表单库。
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="center">
+  <a href="#">网站</a> •
+  <a href="#">快速开始</a> •
+</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+</div>
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. 为什么？由于公司业务需求，需要实现一个拖拽式自定义表单，技术栈使用react + sortable + antd
+2. 有什么？目前已实现 Radio, CheckBox, Answer, Number, DatePicker，日后会慢慢丰富。
+3. 
 
-### `yarn build`
+<div align="center">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+</div>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ✨ 特性
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 📦 React
 
-### `yarn eject`
+### 🐰 可拖拽
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 📦 查看案例
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+fork or clone —> npm install ->npm run start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 🔨 具体组件使用
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+MIT
