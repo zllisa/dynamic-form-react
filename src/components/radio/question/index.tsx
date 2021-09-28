@@ -3,7 +3,7 @@ import './index.scss'
 import Icon, { CopyOutlined, DeleteOutlined } from '@ant-design/icons';
 import { radioSvg } from "../../svg";
 import { cloneDeep, cloneDeepWith } from "lodash";
-import { createId, ItemType } from "../../../App";
+import { createId, ItemType } from "../../../dynamic-form";
 
 
 

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Input } from 'antd';
 import './index.scss'
 import { CopyOutlined, DeleteOutlined } from "@ant-design/icons";
-import { createId, ItemType } from "../../../App";
+import { createId, ItemType } from "../../../dynamic-form";
 import { cloneDeep } from "lodash";
 
 const { TextArea } = Input;

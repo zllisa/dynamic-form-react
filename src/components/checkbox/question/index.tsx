@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import './index.scss'
 import Icon, { CopyOutlined, DeleteOutlined } from '@ant-design/icons';
 import { radioSvg } from "../../svg";
-import { createId, ItemType, OptionType } from "../../../App";
+import { createId, ItemType, OptionType } from "../../../dynamic-form";
 import { cloneDeep } from "lodash";
 
 

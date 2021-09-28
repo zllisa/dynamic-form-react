@@ -1,7 +1,7 @@
 import { Input, Select, Switch } from "antd";
 import { cloneDeep } from "lodash";
 import React, { useState } from "react";
-import { AttrType, ItemType } from "../../../App";
+import { AttrType, ItemType } from "../../../dynamic-form";
 import './index.scss'
 interface EditDatePickerProps {
     id: string;

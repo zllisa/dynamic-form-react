@@ -3,7 +3,7 @@ import { Input } from 'antd';
 import './index.scss'
 import { CopyOutlined, DeleteOutlined } from "@ant-design/icons";
 import { cloneDeep } from "lodash";
-import { createId, ItemType } from "../../../App";
+import { createId, ItemType } from "../../../dynamic-form";
 
 const { TextArea } = Input;
 

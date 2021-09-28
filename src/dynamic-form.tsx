@@ -1,7 +1,6 @@
 import React, { Component, useEffect, useState } from 'react';
 import { Input, DatePicker, Button, message, Form, Radio, Checkbox } from 'antd';
 import { ReactSortable } from "react-sortablejs";
-import { cloneDeep, divide } from 'lodash';
 import CustomComponent from './custom-component';
 import QuestionRadio from './components/radio/question';
 import QuestionCheckBox from './components/checkbox/question';
@@ -18,8 +17,8 @@ import LabelAnswer from './components/answer/label';
 import LabelNumber from './components/number/label';
 import LabelDatePicker from './components/datepicker/label';
 import EditCheckBox from './components/checkbox/edit';
-import CustomFromComponent from './cus-form';
-
+import './dynamic-form.scss';
+import { FormOutlined } from '@ant-design/icons';
 
 const { MonthPicker, RangePicker, WeekPicker } = DatePicker;
 
@@ -228,7 +227,7 @@ const DynamicForm: React.FC = () => {
         {
           isEdit &&
           <>
-            <div>编辑表单</div>
+            <div><FormOutlined  style={{ fontSize: '16px', color: '#08c',marginRight:'6px' }} /><span style={{ fontSize: '16px', color: '#08c',marginRight:'6px' }}>编辑表单</span></div>
             <div>
               <Button onClick={() => { if (state2.length > 0) { setIsEdit(false) } else { message.warn('请添加字段') } }}>预览</Button>
               <Button>完成</Button>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { AttrType, FuncsType } from './App';
+import { AttrType, FuncsType } from './dynamic-form';
 import { QuestionRadioProps } from './components/radio/question';
 
 

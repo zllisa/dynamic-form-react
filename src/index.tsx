@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
-import DynamicForm from './App';
+import DynamicForm from './dynamic-form';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(

@@ -2,7 +2,7 @@ import Icon, { DeleteOutlined } from "@ant-design/icons";
 import { Button, Input, Switch } from "antd";
 import { cloneDeep } from "lodash";
 import React, { useState } from "react";
-import { AttrType, ItemType } from "../../../App";
+import { AttrType, ItemType } from "../../../dynamic-form";
 import './index.scss'
 interface EditCheckBoxProps {
     id:string;
