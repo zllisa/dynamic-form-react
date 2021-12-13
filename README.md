@@ -15,8 +15,8 @@
 </div>
 
 
-1. 为什么？由于公司业务需求，需要实现一个拖拽式自定义表单，技术栈使用react + sortable + antd
-2. 有什么？目前已实现 Radio, CheckBox, Answer, Number, DatePicker，日后会慢慢丰富。
+1. 一个拖拽式自定义表单，技术栈使用react + sortable + antd
+2. 目前已实现 Radio, CheckBox, Answer, Number, DatePicker，日后会慢慢丰富。
 3. 
 
 <div align="center">
